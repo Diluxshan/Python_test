@@ -11,3 +11,9 @@ for i in l4:
     for c in i:
         print(" ",c, end="  ")
     print()
+
+
+valu= 23
+c = 3
+total =valu+c
+
