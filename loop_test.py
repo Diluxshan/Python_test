@@ -1,19 +1,5 @@
-from array import *
-
-l1 = [1,2,3,4,5]
-l2 = [2,3,4,5,6]
-l3 = [3,4,5,6,7]
-
-l4 = [l1,l2,l3]
-
-print("col1 col2 col3 col4 col5")
-for i in l4:
-    for c in i:
-        print(" ",c, end="  ")
-    print()
-
-
-valu= 23
-c = 3
-total =valu+c
-
+S = [1, 3, 5, 10, 2, 4, 9, 5, -1]
+S1 = S[:4]
+S2 = S[4:9]
+print(S1)
+print(S2)
