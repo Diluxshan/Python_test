@@ -1,9 +1,9 @@
+#Sample code for Save the file in excel
 import itertools
-
 import pandas as pd
 
 
-with open("your_text_data.txt") as data:
+with open(SHT_on_Stream.txt) as data:
     lines = [
         [
             i.split(":")[-1].replace("°C", "").replace("%RH", "")
