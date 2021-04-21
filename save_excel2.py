@@ -26,7 +26,6 @@ def cut_into_pieces(flattened_lines: list, piece_size: int = 4) -> list:
         in range(0, len(flattened_lines), piece_size)
     ]
 
-
 with open("SHT_on_Stream.txt") as data:
     df = pd.DataFrame(
         cut_into_pieces(flatten(read_lines(data))),
@@ -35,3 +34,13 @@ with open("SHT_on_Stream.txt") as data:
 
     print(df)
     df.to_excel("New_datasheet.xlsx", index=False)
+
+
+    def reverseQueue(q1src, q2dest):
+        buffer = q1src.get()
+        if (q1src.empty() == False):
+
+
+    reverseQueue(q1src, q2dest)  # using recursion
+    q2dest.put(buffer)
+return q2dest
