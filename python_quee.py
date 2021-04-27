@@ -12,7 +12,4 @@ print(q1.full())
 print(q1.qsize())
 print("Successfull finished")
 
-for i in range (0,10):
-    print(q1.qsize())
-    time.sleep(1)
-
+print("hello whta")
