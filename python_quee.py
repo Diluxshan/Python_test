@@ -9,7 +9,6 @@ q1.put(3)
 q1.put(4)
 q1.put(5)
 print(q1.full())
-print(q1.qsize())
-print("Successfull finished")
 
-print("hello whta")
+print(q1.qsize())7676
+print("Successfull finished")
