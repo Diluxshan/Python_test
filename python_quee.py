@@ -17,3 +17,4 @@ print(q1.qsize())
 # find from
 # locals()
 print("Successfull finished")
+\
