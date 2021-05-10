@@ -11,10 +11,8 @@ q1.put(5)
 print(q1.full())
 
 
-
 print(q1.qsize())
 # should be
 # find from
 # locals()
 print("Successfull finished")
-\
