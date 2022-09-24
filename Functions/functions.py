@@ -1,7 +1,9 @@
 
-def addd(a, b):
+def Addd(a, b):
     return format(a+b)
 
-
-def sub(a, b=None):
+def Sub(a, b=None):
     return "{}".format(a-b)
+
+def Multi(a, b=None):
+    return "{}".format(a*b)

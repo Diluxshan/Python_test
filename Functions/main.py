@@ -9,6 +9,6 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
-    print((addd(2, 4)))
-    print(sub(3,4))
-
+    print((Addd(2, 4)))
+    print(Sub(3, 4))
+    print(Multi(5, 2))
