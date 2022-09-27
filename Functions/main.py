@@ -11,4 +11,4 @@ if __name__ == '__main__':
     print_hi('PyCharm')
     print((Addd(2, 4)))
     print(Sub(3, 4))
-    print(Multi(5, 2))
+    print(Multi(5, 2) * 4)
