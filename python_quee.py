@@ -8,8 +8,7 @@ q1.put(2)
 q1.put(3)
 q1.put(4)
 q1.put(5)
-print(q1.full())
-
+print(q1.full())        #weather full or not
 
 print(q1.qsize())
 # should be
